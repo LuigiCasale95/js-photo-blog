@@ -17,5 +17,22 @@ header > h1 {
 }
 main {
     background-image: url(img/cork.png);
-    height: 100vh;
+    height: 100%;
+}
+.cardContainer {
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+}
+.boxImg {
+    width: 100%;
+    height: 330px;
+
+    /* Debug */
+    background-color: blueviolet;
+}
+.imgCard {
+    width: 100%;
+    height: 100%;
 }
