@@ -24,6 +24,7 @@ main {
     height: 450px;
     padding: 10px;
     background-color: white;
+    box-shadow: 4px 4px 4px #000000;
 }
 .boxImg {
     width: 100%;
@@ -36,3 +37,11 @@ main {
     width: 100%;
     height: 100%;
 }
+
+.cardContainer:hover {
+    transform: scale(1.1) rotate(5deg) translateY(-5px);
+    
+}
+.cardContainer:hover .imgPin {
+        display: none;
+    }
