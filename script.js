@@ -40,6 +40,7 @@ const apiRef = "https://lanciweb.github.io/demo/api/pictures/";
 
             cardElement.innerHTML = accumuloCard;
             console.log(cardElement);
+            
             cardElement.addEventListener("click", 
             function() {
                 console.log('ciao');
@@ -64,14 +65,3 @@ const apiRef = "https://lanciweb.github.io/demo/api/pictures/";
         )
 
     })
-/*     .catch(error => {
-        console.error(error)
-    }) */
-        /* VARIABILE */
-/*         const openHoverlay = document.querySelector(".openHoverlay")
-
-            openHoverlay.addEventListener("click", 
-                function() {
-                    hoverlay.classList.remove(".d-none")
-                }
-            ) */
