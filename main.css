@@ -17,7 +17,6 @@ header > h1 {
 }
 main {
     background-image: url(img/cork.png);
-    height: 100vh;
 }
 a {
     text-decoration: none;
@@ -65,12 +64,12 @@ a {
     background-color: blue;
 }
 @media screen and (max-width: 1020px) {
-    .boxHoverlay {
+       .boxHoverlay {
         position: absolute;
         top: 20%;
         left: 16%;
         translate: middle;
-}
+        }
 }
 @media screen and (max-width: 790px) {
     .boxHoverlay {
@@ -78,5 +77,10 @@ a {
         top: 20%;
         left: 10%;
         translate: middle;
+    }
 }
+@media screen and (min-width: 1400px) {
+        main {
+            height: 100vh;
+        }
 }
