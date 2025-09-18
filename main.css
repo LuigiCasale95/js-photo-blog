@@ -84,3 +84,9 @@ a {
             height: 100vh;
         }
 }
+
+/* Frocatura */
+.sfocatura {
+    filter: blur(10px);
+
+}
